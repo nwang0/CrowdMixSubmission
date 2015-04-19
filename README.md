@@ -20,7 +20,8 @@
 * The format of output is fixed into the Posting class for simplicity. If different kind of formats are required, we can pass in a formatter intead.
 
 ## Principles followed in the design
-* SOLID. (especially Open/close principle)
+* SOLID (Robert c Martin)
 * Avoid getter and setters to maximise encapsulation
+* The common closure principle and the acyclic dependencies principle for packaging
 * Domain driven design
 
